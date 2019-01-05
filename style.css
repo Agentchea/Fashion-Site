@@ -68,6 +68,15 @@ nav a:hover::before {
 .g1 {
     width: 600px;
     height: auto;
+    animation: g1 5s;
+}
+@keyframes g1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .wrapper {
     padding: 0;
@@ -81,23 +90,18 @@ nav a:hover::before {
     margin-top: 20%;
     margin-left: 45%;
     padding-right: 20px;
+    animation: paragraph1 12s;
+}
+
+    @keyframes paragraph1 {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
 }
 .highlight {
     font-size: 25px;
     
-}
-#wrapper2 {
-    margin-top: 50%;
-    position: absolute;
-    background-color: #000000;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0px;
-    width: 100%;
-    height: 100%;
-    max-height: 100%;
-    padding-bottom: 90px;
-}
-.girl3 {
-    background-color: #000000;
 }
