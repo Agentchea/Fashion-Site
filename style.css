@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     padding: 0;
     height: 100%;
+    background-size: cover;
 }
 .container {
     width: 80%;
@@ -69,6 +70,8 @@ nav a:hover::before {
     width: 600px;
     height: auto;
     animation: g1 5s;
+    margin: 0;
+
 }
 @keyframes g1 {
     from {
@@ -82,15 +85,15 @@ nav a:hover::before {
     padding: 0;
     margin-top: 50px;
     margin-left: 400px;
-    position: absolute;
+    position: inherit;
 }
 .paragraph1 {
     padding: 0;
     position: absolute;
-    margin-top: 20%;
     margin-left: 45%;
     padding-right: 20px;
     animation: paragraph1 12s;
+    margin-top: 10%;
 }
 
     @keyframes paragraph1 {
@@ -111,7 +114,7 @@ nav a:hover::before {
     padding: 0;
     margin: 0;
 }
-.titlepage {
+.titlepage1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,7 +122,35 @@ nav a:hover::before {
     font-family: 'Thasadith', sans-serif;
     width: 100%;
     height: 100vh;
-    margin-top: 53%;
+    margin: 0;
+    background-color: #000000;
+    
+}
+.titlepage2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Thasadith', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.titlepage3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Thasadith', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    
 }
 h2 {
     font-size: 30px;
@@ -128,6 +159,7 @@ h2 {
     padding: 8px 24px;
     border-radius: 16px;
 }
+
 div:nth-child(1) {
     background-image: url(images/designerman.png);
     background-size: cover;
