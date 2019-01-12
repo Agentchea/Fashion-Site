@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
     margin: 0;
-    font-family: 'Thasadith', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-weight: 400;
     padding: 0;
     height: 100%;
@@ -90,10 +90,11 @@ nav a:hover::before {
 .paragraph1 {
     padding: 0;
     position: absolute;
-    margin-left: 45%;
+    top: 50%;
+    left: 60%;
     padding-right: 20px;
     animation: paragraph1 12s;
-    margin-top: 10%;
+    
 }
 
     @keyframes paragraph1 {
@@ -114,44 +115,7 @@ nav a:hover::before {
     padding: 0;
     margin: 0;
 }
-.titlepage1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-family: 'Thasadith', sans-serif;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #000000;
-    
-}
-.titlepage2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-family: 'Thasadith', sans-serif;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #000000;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-.titlepage3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-family: 'Thasadith', sans-serif;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #000000;
-    
-}
+
 h2 {
     font-size: 30px;
     background-color: black;
@@ -166,4 +130,31 @@ div:nth-child(1) {
 }
 div:nth-child(2) {
     background: #ffffff;
+}
+#content1 {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    position: absolute;
+   
+}
+#jj {
+    float: right;
+    
+}
+.highlight2 {
+    top: 20px;
+    
+}
+#pg3 {
+    margin: 0;
+    padding: 0;
+    top: 1160px;
+    left: 30%;
+    position: absolute;
+    background-color: #000000;
+  
+    
 }
